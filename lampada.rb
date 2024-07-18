@@ -34,11 +34,11 @@ end
 
 
 lampada = Lampada.new
-lampada.state  # Saída: A lâmpada está desligada.
+lampada.state
 lampada.on
-lampada.state  # Saída: A lâmpada está ligada.
+lampada.state
 lampada.off
-lampada.state   # Saída: A lâmpada está desligada.
-lampada.off  # Saída: A lâmpada já está desligada.
+lampada.state
+lampada.off
 lampada.on
-lampada.on    # Saída: A lâmpada já está ligada.
+lampada.on    
